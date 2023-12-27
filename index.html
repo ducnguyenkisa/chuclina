@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+  <title>Lina</title>
+  <style>
+    body {
+      font-family: 'Rubik Bubbles';
+      text-align: center;
+      margin: 40px;
+    }
+
+    h1 {
+      color: #333;
+      position: relative;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    #ducnguyen {
+      position: absolute;
+    }
+
+    #fanForm {
+      display: none;
+    }
+
+    #strayKidsImage {
+      max-width: 100%;
+      height: auto;
+      margin-top: 16px;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Лина <br> тебе красиво <br> мой Ангел </h1>
+  
+  <!-- Button có id để chúng ta có thể tham chiếu đến nó bằng JavaScript -->
+  <button id="myButton">Ты мне нравится</button>
+  <button id="ducnguyen">мой подарок</button>
+
+  <div>
+    <div id="fanForm">
+      
+  
+      <div id="successMessage">
+        <p>Удачи тебе на зачете по истории</p>
+        <img id="strayKidsImage" src="https://static.tvtropes.org/pmwiki/pub/images/skz2022.png" alt="Stray Kids">
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
