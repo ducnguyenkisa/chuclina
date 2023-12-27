@@ -8,7 +8,7 @@ var countClick = 0;
 
 ducnguyen.addEventListener("click", function() {
     
-    if(countClick < 5) {
+    if(countClick < 10) {
         countClick++
         let numbertop = Math.random() * 500;
         let numberleft = Math.random() * numberWidth;
